@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00080",
+  "prompt": "Before I get caught up making pasta tonight, can you set a reminder for me to video call my sister before dinner?",
+  "tool": "create",
+  "scenario": "create_success_family_social"
+}

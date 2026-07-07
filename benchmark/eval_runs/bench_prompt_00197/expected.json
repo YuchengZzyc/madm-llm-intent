@@ -1,0 +1,30 @@
+{
+  "gold": {
+    "action": "update",
+    "target": "self",
+    "task": null,
+    "time_text": null,
+    "locator_task": "apply the knee patch",
+    "locator_time_text": "after breakfast tomorrow",
+    "new_task": "defrost fish for dinner",
+    "new_time_text": null,
+    "should_call_tool": true,
+    "locator_scheduled_time": "2026-05-27T09:00:00+08:00"
+  },
+  "expected": {
+    "should_call_tool": true,
+    "expected_tool": "update_reminder",
+    "expected_status": "success",
+    "state_change": "update_one",
+    "scenario": "update_success_task_change",
+    "diff_assertions": [
+      "after_active_count == before_active_count",
+      "exactly_one_existing_reminder_changed",
+      "changed reminder matches gold.locator_task/time before update",
+      "changed reminder contains gold.new_task and/or resolve(gold.new_time_text, run_now) after update"
+    ],
+    "before_active_count": 3,
+    "run_now": "2026-05-26T11:50:06.647642+08:00",
+    "timezone": "Asia/Singapore"
+  }
+}

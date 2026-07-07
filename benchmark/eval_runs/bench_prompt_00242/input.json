@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00242",
+  "prompt": "Uh, can you change that reminder to tonight at 8:15 PM?",
+  "tool": "update",
+  "scenario": "update_missing_target"
+}

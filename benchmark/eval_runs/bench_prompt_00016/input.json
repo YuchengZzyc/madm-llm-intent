@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00016",
+  "prompt": "My monthly pass is about to run out and I’ll need it for commuting next week, so please remind me this Friday evening to renew the bus card.",
+  "tool": "create",
+  "scenario": "create_success_relative_daypart"
+}

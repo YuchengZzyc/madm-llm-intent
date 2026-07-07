@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00118",
+  "prompt": "Since I’ll be switching meetings soon, remind me today at 6:30 PM, and I’m sitting by the window.",
+  "tool": "create",
+  "scenario": "create_missing_task_time_clear"
+}

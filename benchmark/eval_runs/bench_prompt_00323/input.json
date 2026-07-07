@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00323",
+  "prompt": "Next Friday evening sounds busy because my cousins may stop by.",
+  "tool": "no_tool",
+  "scenario": "no_tool_time_words_no_intent"
+}

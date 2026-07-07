@@ -1,0 +1,27 @@
+{
+  "gold": {
+    "action": "none",
+    "target": "self",
+    "task": null,
+    "time_text": null,
+    "locator_task": null,
+    "locator_time_text": null,
+    "new_task": null,
+    "new_time_text": null,
+    "should_call_tool": false
+  },
+  "expected": {
+    "should_call_tool": false,
+    "expected_tool": null,
+    "expected_status": "no_tool",
+    "state_change": "no_change",
+    "scenario": "no_tool_question_general",
+    "diff_assertions": [
+      "no tool call should be emitted",
+      "after_state == before_state"
+    ],
+    "before_active_count": 2,
+    "run_now": "2026-05-26T11:50:06.647642+08:00",
+    "timezone": "Asia/Singapore"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00168",
+  "prompt": "My evening walk reminder?",
+  "tool": "query",
+  "scenario": "query_not_found_sports"
+}

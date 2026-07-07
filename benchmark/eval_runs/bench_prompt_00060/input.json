@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00060",
+  "prompt": "My optician said my new frames should be ready by then, so remind me the day after tomorrow at 9:30 AM to pick up new glasses.",
+  "tool": "create",
+  "scenario": "create_success_personal_care"
+}

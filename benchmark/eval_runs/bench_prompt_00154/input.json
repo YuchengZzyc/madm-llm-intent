@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00154",
+  "prompt": "I forgot what I need to do tomorrow, can you check my reminders?",
+  "tool": "query",
+  "scenario": "query_vague_memory_success"
+}

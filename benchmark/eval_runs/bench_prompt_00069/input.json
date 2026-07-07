@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00069",
+  "prompt": "Remind me before dinner tonight to meet the bank clerk because I need to discuss my account.",
+  "tool": "create",
+  "scenario": "create_success_appointment"
+}

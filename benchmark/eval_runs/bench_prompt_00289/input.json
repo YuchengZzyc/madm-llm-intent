@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00289",
+  "prompt": "Hey, could you get rid of the reminder I set to visit the community clinic after breakfast tomorrow?",
+  "tool": "delete",
+  "scenario": "delete_not_found_appointment"
+}

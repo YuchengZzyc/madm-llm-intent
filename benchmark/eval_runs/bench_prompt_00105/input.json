@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00105",
+  "prompt": "The kitchen is a mess, but could you make sure I get reminded to turn off the stove?",
+  "tool": "create",
+  "scenario": "create_missing_time_task_clear"
+}

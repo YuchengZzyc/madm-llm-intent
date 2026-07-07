@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00147",
+  "prompt": "I’m not totally sure, but could you look up whether I have a reminder to play basketball after breakfast tomorrow?",
+  "tool": "query",
+  "scenario": "query_by_day_success"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00226",
+  "prompt": "Electricity bill one—shift it to tonight at 8:15 PM.",
+  "tool": "update",
+  "scenario": "update_ambiguous_task_only"
+}

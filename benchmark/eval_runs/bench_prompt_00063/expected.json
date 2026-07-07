@@ -1,0 +1,30 @@
+{
+  "gold": {
+    "action": "create",
+    "target": "self",
+    "task": "water the porch plants",
+    "time_text": "tonight at 8:15 PM",
+    "locator_task": null,
+    "locator_time_text": null,
+    "new_task": null,
+    "new_time_text": null,
+    "should_call_tool": true,
+    "scheduled_time": "2026-05-26T20:15:00+08:00"
+  },
+  "expected": {
+    "should_call_tool": true,
+    "expected_tool": "create_reminder",
+    "expected_status": "success",
+    "state_change": "create_one",
+    "scenario": "create_success_household_safety",
+    "diff_assertions": [
+      "after_active_count == before_active_count + 1",
+      "new reminder.task == gold.task",
+      "new reminder.target == 'self'",
+      "new reminder.scheduled_time == resolve(gold.time_text, run_now)"
+    ],
+    "before_active_count": 2,
+    "run_now": "2026-05-26T11:50:06.647642+08:00",
+    "timezone": "Asia/Singapore"
+  }
+}

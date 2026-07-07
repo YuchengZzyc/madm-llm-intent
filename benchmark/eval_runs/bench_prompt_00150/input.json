@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00150",
+  "prompt": "Could you maybe check if I have a reminder to renew the bus card, since I need to plan my errands?",
+  "tool": "query",
+  "scenario": "query_by_day_success"
+}

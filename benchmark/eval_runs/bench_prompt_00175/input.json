@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00175",
+  "prompt": "Before I start making dinner, could you check whether I’ve got anything set for meeting the bank clerk tonight at 8:15 PM?",
+  "tool": "query",
+  "scenario": "query_not_found_appointment"
+}

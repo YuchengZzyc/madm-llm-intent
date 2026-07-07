@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00271",
+  "prompt": "Drop my property office reminder for this Friday evening.",
+  "tool": "delete",
+  "scenario": "delete_ambiguous_generic"
+}

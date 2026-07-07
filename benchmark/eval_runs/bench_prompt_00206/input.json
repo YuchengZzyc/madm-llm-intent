@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00206",
+  "prompt": "Move the reminder tomorrow morning about asking my nephew about the clinic appointment to next Monday at 10:15 AM.",
+  "tool": "update",
+  "scenario": "update_success_reschedule_with_context"
+}

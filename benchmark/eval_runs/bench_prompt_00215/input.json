@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00215",
+  "prompt": "Hey, can you switch my tai chi class reminder over to tomorrow at 8:00 AM?",
+  "tool": "update",
+  "scenario": "update_ambiguous_generic"
+}

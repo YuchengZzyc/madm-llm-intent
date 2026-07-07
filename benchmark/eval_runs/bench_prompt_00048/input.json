@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00048",
+  "prompt": "Please remind me next Monday at 10:15 AM to take an evening walk because I’m trying to keep up my routine; by the way, my calendar cover is green.",
+  "tool": "create",
+  "scenario": "create_success_sports_activity"
+}

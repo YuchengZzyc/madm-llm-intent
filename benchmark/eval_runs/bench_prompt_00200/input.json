@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00200",
+  "prompt": "Um, can you change the reminder I have for today at 6:30 PM to go to the foot massage appointment so that it says buy vegetables on the way home instead, since I’ll be passing the market?",
+  "tool": "update",
+  "scenario": "update_success_task_change"
+}

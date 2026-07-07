@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00283",
+  "prompt": "Actually, I don’t think I’m going to make it to the square dancing group this Friday evening, so could you cancel that reminder?",
+  "tool": "delete",
+  "scenario": "delete_not_found_sports"
+}

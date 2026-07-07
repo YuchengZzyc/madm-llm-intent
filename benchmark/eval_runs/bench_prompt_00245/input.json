@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00245",
+  "prompt": "Would you be a dear and move it to before dinner tonight?",
+  "tool": "update",
+  "scenario": "update_missing_target"
+}

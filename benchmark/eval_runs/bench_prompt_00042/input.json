@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00042",
+  "prompt": "The delivery locker should be ready by then—tomorrow afternoon at 4:00 PM, remind me to pick up a parcel downstairs.",
+  "tool": "create",
+  "scenario": "create_success_errand_payment"
+}

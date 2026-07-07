@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00288",
+  "prompt": "I don't think I need it anymore, so could you maybe remove my reminder to meet the bank clerk?",
+  "tool": "delete",
+  "scenario": "delete_not_found_appointment"
+}

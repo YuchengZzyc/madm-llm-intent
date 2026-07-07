@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00321",
+  "prompt": "I’m thinking next Friday evening might be a good time to try that new taco place because work should be calmer by then.",
+  "tool": "no_tool",
+  "scenario": "no_tool_time_words_no_intent"
+}

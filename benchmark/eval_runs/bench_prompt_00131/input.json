@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00131",
+  "prompt": "For my take an evening walk reminder tomorrow morning, what time is it set for?",
+  "tool": "query",
+  "scenario": "query_by_task_success"
+}

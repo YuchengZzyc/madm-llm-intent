@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00266",
+  "prompt": "I think I don't need it anymore, so could you remove my reminder to call my daughter?",
+  "tool": "delete",
+  "scenario": "delete_ambiguous_generic"
+}

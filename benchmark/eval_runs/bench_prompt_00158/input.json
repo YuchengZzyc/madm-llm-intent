@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00158",
+  "prompt": "Would you please look and see if I have any reminders set for before dinner tonight, dear? I’ve been a bit forgetful today and want to make sure I don’t miss anything.",
+  "tool": "query",
+  "scenario": "query_vague_memory_success"
+}

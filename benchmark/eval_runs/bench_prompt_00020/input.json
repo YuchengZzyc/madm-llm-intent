@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00020",
+  "prompt": "Could you set a reminder for me tomorrow afternoon at 4:00 PM to ask my nephew about the clinic appointment, and by the way I’ll probably be making coffee around then but I still need the reminder?",
+  "tool": "create",
+  "scenario": "create_success_relative_daypart"
+}

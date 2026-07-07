@@ -1,0 +1,21 @@
+api:
+  base_url: "https://your-openai-compatible-endpoint/v1"
+  api_key: "your_api_key"
+  model: "your_model_name"
+  timeout_sec: 120
+  auth_header: "Authorization"
+  auth_scheme: "bearer"
+  native_tools: false
+
+data:
+  cases_jsonl: "benchmark/toolcall_param_cases.jsonl"
+
+eval:
+  max_samples: 20
+  temperature: 0.0
+  max_tokens: 512
+  few_shot: 4
+  sleep_sec: 0.0
+
+output:
+  report: "benchmark/reports/toolcall_param_eval_api.json"

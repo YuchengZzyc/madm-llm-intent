@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00044",
+  "prompt": "Could you please remind me before dinner tonight that I need to renew the bus card?",
+  "tool": "create",
+  "scenario": "create_success_errand_payment"
+}

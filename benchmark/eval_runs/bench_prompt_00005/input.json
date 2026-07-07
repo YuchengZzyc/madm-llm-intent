@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00005",
+  "prompt": "Remind me the day after tomorrow at 9:30 AM to water the porch plants.",
+  "tool": "create",
+  "scenario": "create_success_exact_time"
+}

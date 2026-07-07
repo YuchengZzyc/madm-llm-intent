@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00320",
+  "prompt": "I had such a nice afternoon because my grandson stopped by and we sat at the kitchen table talking for ages, it really made my whole day.",
+  "tool": "no_tool",
+  "scenario": "no_tool_happy_share"
+}

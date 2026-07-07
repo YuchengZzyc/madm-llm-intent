@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00030",
+  "prompt": "This Friday evening — remind me to call my son, after I sort the mail.",
+  "tool": "create",
+  "scenario": "create_success_short_command"
+}

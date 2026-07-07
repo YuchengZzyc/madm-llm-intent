@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00305",
+  "prompt": "I found a shiny pebble by the fountain today.",
+  "tool": "no_tool",
+  "scenario": "no_tool_daily_chat"
+}

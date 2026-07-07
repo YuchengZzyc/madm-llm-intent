@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00281",
+  "prompt": "Cancel my reminder to take an evening walk after breakfast tomorrow, switching plans and I don't want the ping.",
+  "tool": "delete",
+  "scenario": "delete_not_found_sports"
+}

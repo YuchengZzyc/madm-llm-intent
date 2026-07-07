@@ -1,0 +1,27 @@
+{
+  "gold": {
+    "action": "delete",
+    "target": "self",
+    "task": "attend the neighborhood committee meeting",
+    "time_text": null,
+    "locator_task": "attend the neighborhood committee meeting",
+    "locator_time_text": null,
+    "new_task": null,
+    "new_time_text": null,
+    "should_call_tool": true
+  },
+  "expected": {
+    "should_call_tool": true,
+    "expected_tool": "delete_reminder",
+    "expected_status": "not_found",
+    "state_change": "no_change",
+    "scenario": "delete_not_found_appointment",
+    "diff_assertions": [
+      "after_state == before_state",
+      "tool_result.status == 'not_found'"
+    ],
+    "before_active_count": 2,
+    "run_now": "2026-05-26T11:50:06.647642+08:00",
+    "timezone": "Asia/Singapore"
+  }
+}

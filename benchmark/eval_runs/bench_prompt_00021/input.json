@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00021",
+  "prompt": "Could you maybe set a reminder for me to measure my blood pressure after breakfast tomorrow?",
+  "tool": "create",
+  "scenario": "create_success_routine_anchor"
+}

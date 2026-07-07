@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00327",
+  "prompt": "I’m thinking maybe tomorrow afternoon I’ll grab tea with a couple friends, but we’ll see.",
+  "tool": "no_tool",
+  "scenario": "no_tool_time_words_no_intent"
+}

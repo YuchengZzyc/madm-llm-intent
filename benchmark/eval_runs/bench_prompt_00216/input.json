@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00216",
+  "prompt": "Hey, can you move my reminder to go to the foot massage appointment to this Friday evening? I just realized I’ll be tied up before then.",
+  "tool": "update",
+  "scenario": "update_ambiguous_generic"
+}

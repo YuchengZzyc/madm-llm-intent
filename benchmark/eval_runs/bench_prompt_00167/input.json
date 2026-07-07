@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00167",
+  "prompt": "Check what time my go to tai chi class reminder is this Friday evening, need to know before I book a ride.",
+  "tool": "query",
+  "scenario": "query_not_found_sports"
+}

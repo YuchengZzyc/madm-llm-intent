@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00093",
+  "prompt": "After breakfast tomorrow, take blood pressure medicine.",
+  "tool": "create",
+  "scenario": "create_success_delivery_shopping"
+}

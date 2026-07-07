@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00009",
+  "prompt": "Can you remind me today at 6:30 PM to check blood sugar so I don’t forget after dinner?",
+  "tool": "create",
+  "scenario": "create_success_exact_time"
+}

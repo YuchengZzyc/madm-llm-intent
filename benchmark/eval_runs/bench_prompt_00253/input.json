@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00253",
+  "prompt": "Hey, I ended up rescheduling, so please cancel my reminder to visit the community clinic tomorrow morning; I’ve already called them about it.",
+  "tool": "delete",
+  "scenario": "delete_success_explicit"
+}

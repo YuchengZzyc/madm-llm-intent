@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00163",
+  "prompt": "Would you mind checking for me if I’ve got a reminder to play table tennis before dinner tonight, dear? I don’t want to forget if it’s already on there.",
+  "tool": "query",
+  "scenario": "query_polite_elder_style"
+}

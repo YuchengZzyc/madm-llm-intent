@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00217",
+  "prompt": "Change my reminder to charge the phone to tonight at 8:15 PM.",
+  "tool": "update",
+  "scenario": "update_ambiguous_generic"
+}

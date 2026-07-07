@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00073",
+  "prompt": "Can you remind me tomorrow at 8:00 AM to attend the neighborhood committee meeting, since I need to bring up the parking issue?",
+  "tool": "create",
+  "scenario": "create_success_appointment"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00128",
+  "prompt": "Could you set up a reminder for me, because I’m trying to be a little more organized and not let stuff slip today?",
+  "tool": "create",
+  "scenario": "create_missing_both_minimal"
+}

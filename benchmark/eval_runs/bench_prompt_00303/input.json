@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00303",
+  "prompt": "Hmm, kinda nice out today—ended up wandering around the park for a bit.",
+  "tool": "no_tool",
+  "scenario": "no_tool_daily_chat"
+}

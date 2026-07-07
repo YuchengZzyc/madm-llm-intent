@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00211",
+  "prompt": "The reminder about meeting the bank clerk is currently set for this Friday evening, but that timing no longer works. Please move it to tomorrow at 8:00 AM.",
+  "tool": "update",
+  "scenario": "update_success_reschedule_with_context"
+}

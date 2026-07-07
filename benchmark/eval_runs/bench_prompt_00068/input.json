@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00068",
+  "prompt": "The balcony window has been sticking open after I air out the apartment; this Friday evening, remind me to close it.",
+  "tool": "create",
+  "scenario": "create_success_household_safety"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00267",
+  "prompt": "Would you be so kind as to get rid of that reminder for me? I believe it's the one for the day after tomorrow at 9:30 AM, about joining the square dancing group.",
+  "tool": "delete",
+  "scenario": "delete_ambiguous_generic"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00278",
+  "prompt": "While I'm sorting out my wallet, can you delete the reminder to renew the bus card for me?",
+  "tool": "delete",
+  "scenario": "delete_ambiguous_task_only"
+}

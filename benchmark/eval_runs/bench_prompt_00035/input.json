@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00035",
+  "prompt": "While I’m finishing this coffee, set a reminder for next Monday at 10:15 AM to go to the dentist.",
+  "tool": "create",
+  "scenario": "create_success_short_command"
+}

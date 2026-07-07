@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00221",
+  "prompt": "Put the measure blood pressure one before dinner tonight.",
+  "tool": "update",
+  "scenario": "update_ambiguous_task_only"
+}

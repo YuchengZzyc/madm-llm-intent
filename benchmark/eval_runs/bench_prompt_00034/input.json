@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00034",
+  "prompt": "This Friday evening, remind me to pay the water bill because it’s due soon.",
+  "tool": "create",
+  "scenario": "create_success_short_command"
+}

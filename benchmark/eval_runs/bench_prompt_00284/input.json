@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00284",
+  "prompt": "Cancel my play basketball reminder, knee still sore and I’m skipping it.",
+  "tool": "delete",
+  "scenario": "delete_not_found_sports"
+}

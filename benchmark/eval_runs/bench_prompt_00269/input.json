@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00269",
+  "prompt": "Cancel my reminder tomorrow.",
+  "tool": "delete",
+  "scenario": "delete_ambiguous_generic"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00043",
+  "prompt": "Remind me before dinner tonight to pay the water bill, and I need the receipt for my community paperwork.",
+  "tool": "create",
+  "scenario": "create_success_errand_payment"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00027",
+  "prompt": "Could you remind me tonight at 8:15 PM to visit the community clinic, since I need to check their evening hours?",
+  "tool": "create",
+  "scenario": "create_success_routine_anchor"
+}

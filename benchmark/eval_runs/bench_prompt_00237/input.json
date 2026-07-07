@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00237",
+  "prompt": "Push my reminder to collect medicine from the pharmacy to today at 6:30 PM because I’ll be nearby then.",
+  "tool": "update",
+  "scenario": "update_not_found_personal_care"
+}

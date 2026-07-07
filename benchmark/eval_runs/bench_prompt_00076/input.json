@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00076",
+  "prompt": "Please remind me next Monday at 10:15 AM to go to the dentist, and I need to bring my insurance card.",
+  "tool": "create",
+  "scenario": "create_success_appointment"
+}

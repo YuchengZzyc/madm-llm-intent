@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00270",
+  "prompt": "I just got a message from the front desk about a delivery, and I’m not going to deal with it after all, so please remove my reminder to pick up a parcel downstairs.",
+  "tool": "delete",
+  "scenario": "delete_ambiguous_generic"
+}

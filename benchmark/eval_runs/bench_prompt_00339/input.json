@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00339",
+  "prompt": "Maybe try that new cafe next weekend.",
+  "tool": "no_tool",
+  "scenario": "no_tool_future_plan_no_request"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00219",
+  "prompt": "Um, move the one about meeting the bank clerk to the day after tomorrow at 9:30 AM.",
+  "tool": "update",
+  "scenario": "update_ambiguous_generic"
+}

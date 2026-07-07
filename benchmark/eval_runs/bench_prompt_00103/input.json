@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00103",
+  "prompt": "Please remind me to take my regular walk, dear, because it helps keep my knees from getting too stiff.",
+  "tool": "create",
+  "scenario": "create_missing_time_task_clear"
+}

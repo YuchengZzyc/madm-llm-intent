@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00165",
+  "prompt": "When you have a moment, could you please see if there is a reminder on my list to take out the trash next Monday at 10:15 AM? I was just sorting my mail and thought of it.",
+  "tool": "query",
+  "scenario": "query_polite_elder_style"
+}

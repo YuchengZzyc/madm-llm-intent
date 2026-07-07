@@ -1,0 +1,29 @@
+{
+  "gold": {
+    "action": "delete",
+    "target": "self",
+    "task": "ask my nephew about the clinic appointment",
+    "time_text": "tomorrow afternoon at 4:00 PM",
+    "locator_task": "ask my nephew about the clinic appointment",
+    "locator_time_text": "tomorrow afternoon at 4:00 PM",
+    "new_task": null,
+    "new_time_text": null,
+    "should_call_tool": true,
+    "scheduled_time": "2026-05-27T16:00:00+08:00",
+    "locator_scheduled_time": "2026-05-27T16:00:00+08:00"
+  },
+  "expected": {
+    "should_call_tool": true,
+    "expected_tool": "delete_reminder",
+    "expected_status": "success",
+    "state_change": "delete_or_cancel_one",
+    "scenario": "delete_success_reason_context",
+    "diff_assertions": [
+      "after_active_count == before_active_count - 1 OR target reminder.status in ['cancelled','deleted']",
+      "deleted/cancelled reminder matches gold.locator_task/time_text"
+    ],
+    "before_active_count": 3,
+    "run_now": "2026-05-26T11:50:06.647642+08:00",
+    "timezone": "Asia/Singapore"
+  }
+}

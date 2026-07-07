@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00213",
+  "prompt": "About check blood sugar: switch it to tonight at 8:15 PM.",
+  "tool": "update",
+  "scenario": "update_ambiguous_generic"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00306",
+  "prompt": "I guess it was just one of those really pleasant afternoons, so I wandered around the neighborhood for a while and even stopped to watch some kids playing soccer near the school.",
+  "tool": "no_tool",
+  "scenario": "no_tool_daily_chat"
+}

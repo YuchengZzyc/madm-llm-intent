@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00061",
+  "prompt": "Since I’ll be cooking after lunch and my blue notebook is on the counter, remind me tomorrow afternoon at 4:00 PM to turn off the stove.",
+  "tool": "create",
+  "scenario": "create_success_household_safety"
+}

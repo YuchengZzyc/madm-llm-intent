@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00139",
+  "prompt": "Would you please check for me whether I have anything set for tomorrow afternoon at 4:00 PM?",
+  "tool": "query",
+  "scenario": "query_by_time_success"
+}

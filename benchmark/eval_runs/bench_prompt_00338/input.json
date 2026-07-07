@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00338",
+  "prompt": "Hmm, maybe next week I'll finally deal with getting my hair trimmed, if it isn't too miserable out.",
+  "tool": "no_tool",
+  "scenario": "no_tool_future_plan_no_request"
+}

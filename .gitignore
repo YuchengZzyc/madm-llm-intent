@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets / env
+.env
+.env.*
+*.env
+!.env.example
+!*.env.example
+
+# Model / training outputs
+outputs/
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# Intermediate data artifacts
+data/*.jsonl
+data/*.stats.json
+data/*.raw.jsonl
+data/*.rejects.jsonl
+data/*.clean_report.json
+data/*.tmp
+data/tmp/
+
+# Logs
+*.log
+logs/

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00332",
+  "prompt": "I'm trying to build healthier habits because my doctor mentioned my blood pressure was a little high; is taking a daily walk generally considered helpful for managing it?",
+  "tool": "no_tool",
+  "scenario": "no_tool_question_general"
+}

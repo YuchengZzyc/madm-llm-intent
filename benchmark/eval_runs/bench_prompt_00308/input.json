@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00308",
+  "prompt": "Um, I’m not really sure what I need exactly, but I’ve been feeling pretty alone this evening after a quiet day at home, and I’d just like to talk for a bit.",
+  "tool": "no_tool",
+  "scenario": "no_tool_emotional_support"
+}

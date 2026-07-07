@@ -1,0 +1,359 @@
+{
+  "project": "small_model_tool_use_reminder_harness",
+  "version": "0.1.0",
+  "goal": "Build a backend and runtime harness for small-model tool-use ability, starting with reminder tools.",
+  "principles": [
+    "Backend correctness before model integration.",
+    "Standard messages + tools + assistant.tool_calls + role=tool format.",
+    "Assistant must never fabricate tool results.",
+    "Every feature should be testable.",
+    "Keep progress logs and feature status updated after each implementation step."
+  ],
+  "tool_use_contract": {
+    "standard_format": "openai_compatible_tool_calls",
+    "assistant_tool_call_shape": {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_0001",
+          "type": "function",
+          "function": {
+            "name": "create_reminder",
+            "arguments": "{\"time_text\":\"明天下午4点\",\"task\":\"吃药\",\"target\":\"self\"}"
+          }
+        }
+      ]
+    },
+    "tool_result_shape": {
+      "role": "tool",
+      "tool_call_id": "call_0001",
+      "name": "create_reminder",
+      "content": "{\"status\":\"success\",\"reminder_id\":\"rem_0001\"}"
+    },
+    "max_tool_rounds": 3,
+    "allowed_tool_result_statuses": [
+      "success",
+      "missing_fields",
+      "not_found",
+      "ambiguous",
+      "error"
+    ]
+  },
+  "features": [
+    {
+      "id": "F001",
+      "name": "Create project skeleton",
+      "description": "Create app, scripts, tests, and data directories with minimal Python package structure.",
+      "priority": "P0",
+      "status": "done",
+      "passes": true,
+      "verification": "Repository contains app/, scripts/, tests/, data/ and imports do not fail."
+    },
+    {
+      "id": "F002",
+      "name": "Define reminder data model",
+      "description": "Define Reminder and structured result models using Pydantic or dataclasses.",
+      "priority": "P0",
+      "status": "done",
+      "passes": true,
+      "requirements": [
+        "reminder_id",
+        "task",
+        "scheduled_time",
+        "time_text",
+        "target",
+        "status",
+        "created_at",
+        "updated_at"
+      ],
+      "verification": "pytest tests/test_reminder_service.py"
+    },
+    {
+      "id": "F003",
+      "name": "Implement JSON reminder storage",
+      "description": "Persist reminders in data/reminders.json with safe read/write helpers.",
+      "priority": "P0",
+      "status": "done",
+      "passes": true,
+      "verification": "Storage tests can create, read, update, and delete records without corrupting JSON."
+    },
+    {
+      "id": "F004",
+      "name": "Implement create_reminder",
+      "description": "Create reminders from time_text, task, and target. Return missing_fields if required fields are absent.",
+      "priority": "P0",
+      "status": "done",
+      "passes": true,
+      "expected_statuses": [
+        "success",
+        "missing_fields",
+        "error"
+      ],
+      "verification": "pytest tests/test_reminder_service.py::test_create_reminder"
+    },
+    {
+      "id": "F005",
+      "name": "Implement query_reminder",
+      "description": "Query reminders by time_text, task, both, or neither. Return structured matches.",
+      "priority": "P0",
+      "status": "done",
+      "passes": true,
+      "expected_statuses": [
+        "success",
+        "not_found",
+        "error"
+      ],
+      "verification": "pytest tests/test_reminder_service.py::test_query_reminder"
+    },
+    {
+      "id": "F006",
+      "name": "Implement delete_reminder",
+      "description": "Delete reminders by reminder_id, time_text, task, or combined filters. Return ambiguous when multiple reminders match.",
+      "priority": "P0",
+      "status": "done",
+      "passes": true,
+      "expected_statuses": [
+        "success",
+        "missing_fields",
+        "not_found",
+        "ambiguous",
+        "error"
+      ],
+      "verification": "pytest tests/test_reminder_service.py::test_delete_reminder"
+    },
+    {
+      "id": "F007",
+      "name": "Implement update_reminder",
+      "description": "Update reminder time/task by reminder_id or filters. Return ambiguous when multiple reminders match.",
+      "priority": "P0",
+      "status": "done",
+      "passes": true,
+      "expected_statuses": [
+        "success",
+        "missing_fields",
+        "not_found",
+        "ambiguous",
+        "error"
+      ],
+      "verification": "pytest tests/test_reminder_service.py::test_update_reminder"
+    },
+    {
+      "id": "F008",
+      "name": "Define canonical tool registry",
+      "description": "Create OpenAI-compatible tool schemas for create, query, update, and delete reminders.",
+      "priority": "P0",
+      "status": "done",
+      "passes": true,
+      "verification": "pytest tests/test_tool_registry.py"
+    },
+    {
+      "id": "F009",
+      "name": "Implement tool executor",
+      "description": "Validate assistant tool_calls, parse JSON arguments, execute backend functions, and return role=tool messages.",
+      "priority": "P0",
+      "status": "done",
+      "passes": true,
+      "verification": "pytest tests/test_tool_executor.py"
+    },
+    {
+      "id": "F010",
+      "name": "Implement FastAPI backend",
+      "description": "Expose health, tools, tool execution, and reminder CRUD endpoints.",
+      "priority": "P1",
+      "status": "done",
+      "passes": true,
+      "endpoints": [
+        "GET /health",
+        "GET /tools",
+        "POST /tools/execute",
+        "POST /reminders",
+        "GET /reminders",
+        "PATCH /reminders/{reminder_id}",
+        "DELETE /reminders/{reminder_id}"
+      ],
+      "verification": "pytest tests/test_api.py"
+    },
+    {
+      "id": "F011",
+      "name": "Implement mock model runtime loop",
+      "description": "Use mock assistant outputs to test the full tool-use loop without needing a real model.",
+      "priority": "P1",
+      "status": "done",
+      "passes": true,
+      "verification": "pytest tests/test_runtime_loop.py"
+    },
+    {
+      "id": "F012",
+      "name": "Implement local model call script",
+      "description": "Call a local model or inference server with messages and tools, parse tool_calls, execute tools, and generate final answer.",
+      "priority": "P2",
+      "status": "not_started",
+      "passes": false,
+      "verification": "python scripts/demo_tool_loop.py"
+    },
+    {
+      "id": "F013",
+      "name": "Implement tool-use training data exporter",
+      "description": "Export standard JSONL training examples with messages, tools, assistant.tool_calls, and role=tool results.",
+      "priority": "P2",
+      "status": "done",
+      "passes": true,
+      "verification": "python scripts/export_training_data.py"
+    },
+    {
+      "id": "F014",
+      "name": "Add no-tool negative examples",
+      "description": "Add examples where user chats, shares feelings, or mentions time without requesting a reminder, and the assistant should not call tools.",
+      "priority": "P2",
+      "status": "done",
+      "passes": true,
+      "verification": "Training data statistics include no_tool scenarios."
+    },
+    {
+      "id": "F015",
+      "name": "Add malformed tool-call handling",
+      "description": "Handle malformed JSON arguments, unknown tool names, and missing required parameters gracefully.",
+      "priority": "P2",
+      "status": "not_started",
+      "passes": false,
+      "verification": "pytest tests/test_tool_executor.py::test_malformed_tool_call"
+    },
+    {
+      "id": "F016",
+      "name": "Add local popup reminder watcher",
+      "description": "Poll reminders JSON and trigger local popup when active reminders become due; mark reminder as notified to avoid duplicate popups.",
+      "priority": "P1",
+      "status": "done",
+      "passes": true,
+      "verification": "pytest -q tests/test_reminder_notifier.py && python scripts/run_reminder_notifier.py --once"
+    },
+    {
+      "id": "F017",
+      "name": "Add benchmark prompt generation and end-to-end evaluation runner",
+      "description": "Generate diverse benchmark prompts via LLM API and run isolated per-sample tool-use evaluation against local checkpoints with storage delta checks.",
+      "priority": "P1",
+      "status": "done",
+      "passes": true,
+      "verification": "python -m py_compile app/benchmark_eval.py scripts/generate_benchmark_prompts.py scripts/run_benchmark_eval.py && pytest -q tests/test_benchmark_eval.py"
+    },
+    {
+      "id": "F018",
+      "name": "Add device intent and slot extraction data exporter",
+      "description": "Export device-control intent/slot samples without reminder tools or assistant.tool_calls.",
+      "priority": "P1",
+      "status": "done",
+      "passes": true,
+      "verification": "pytest -q tests/test_device_intent.py tests/test_export_device_intent_data.py && python scripts/export_device_intent_data.py --output data/device_intent_data.jsonl"
+    },
+    {
+      "id": "F019",
+      "name": "Add diverse device intent dataset generator",
+      "description": "Generate rich device-control intent/slot training data with API-backed utterance generation and non-intent negative examples.",
+      "priority": "P1",
+      "status": "done",
+      "passes": true,
+      "verification": "pytest -q tests/test_generate_device_intent_dataset.py && python scripts/generate_device_intent_dataset.py --offline --no-append --output data/device_intent_dataset.jsonl --report data/device_intent_dataset.stats.json"
+    },
+    {
+      "id": "F020",
+      "name": "Add device intent web demo with simulated postprocess",
+      "description": "Run a standalone web demo that checks whether a fine-tuned model recognizes device-control intents and updates a simulated GUI state for the 13 supported capabilities.",
+      "priority": "P1",
+      "status": "done",
+      "passes": true,
+      "verification": "pytest -q tests/test_device_intent_web_demo.py && python -m py_compile scripts/device_intent_web_demo.py"
+    },
+    {
+      "id": "F021",
+      "name": "Add device intent dataset statistics script",
+      "description": "Summarize an existing device intent JSONL dataset with scenario, capability, intent, negative ratio, missing slot, source, error, and duplicate utterance distributions.",
+      "priority": "P2",
+      "status": "done",
+      "passes": true,
+      "verification": "pytest -q tests/test_stat_device_intent_dataset.py && python -m py_compile scripts/stat_device_intent_dataset.py"
+    },
+    {
+      "id": "F022",
+      "name": "Add mixed device intent boost generator with higher door-lock weight",
+      "description": "Append mixed intent/slot training rows for all existing categories while over-sampling capability 4 with positive unlock/lock intents and small door/lock contrast negatives.",
+      "priority": "P1",
+      "status": "done",
+      "passes": true,
+      "verification": "pytest -q tests/test_device_intent.py tests/test_device_intent_web_demo.py tests/test_generate_device_intent_unlock_boost_dataset.py tests/test_generate_device_intent_dataset.py tests/test_export_device_intent_data.py tests/test_stat_device_intent_dataset.py && python scripts/generate_device_intent_unlock_boost_dataset.py --offline --no-append --output data/tmp_mixed_door_lock_boost.jsonl --report data/tmp_mixed_door_lock_boost.stats.json --samples 100 --user-language english --door-lock-ratio 0.5 --contrast-ratio 0.1 --lock-ratio 0.2"
+    },
+    {
+      "id": "F023",
+      "name": "Display web demo token latency metrics",
+      "description": "Measure first-token latency and output token throughput in the device intent web demo, then display the metrics in the browser trace.",
+      "priority": "P1",
+      "status": "done",
+      "passes": true,
+      "verification": "python -m py_compile scripts/device_intent_web_demo.py && pytest -q tests/test_device_intent_web_demo.py"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "M1",
+      "name": "Backend CRUD stable",
+      "depends_on": [
+        "F001",
+        "F002",
+        "F003",
+        "F004",
+        "F005",
+        "F006",
+        "F007"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "M2",
+      "name": "Tool registry and executor stable",
+      "depends_on": [
+        "F008",
+        "F009"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "M3",
+      "name": "API service stable",
+      "depends_on": [
+        "F010"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "M4",
+      "name": "Mock tool-use loop stable",
+      "depends_on": [
+        "F011"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "M5",
+      "name": "Local model integration demo",
+      "depends_on": [
+        "F012"
+      ],
+      "status": "not_started"
+    },
+    {
+      "id": "M6",
+      "name": "Training data export",
+      "depends_on": [
+        "F013",
+        "F014",
+        "F015"
+      ],
+      "status": "not_started"
+    }
+  ],
+  "test_policy": {
+    "do_not_delete_tests": true,
+    "do_not_weaken_tests_without_note": true,
+    "update_progress_after_tests": true
+  }
+}

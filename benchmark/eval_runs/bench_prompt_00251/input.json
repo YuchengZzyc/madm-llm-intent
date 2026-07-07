@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00251",
+  "prompt": "Cancel my take out the trash reminder before dinner tonight.",
+  "tool": "delete",
+  "scenario": "delete_success_explicit"
+}

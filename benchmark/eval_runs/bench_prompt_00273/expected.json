@@ -1,0 +1,27 @@
+{
+  "gold": {
+    "action": "delete",
+    "target": "self",
+    "task": "apply the knee patch",
+    "time_text": null,
+    "locator_task": "apply the knee patch",
+    "locator_time_text": null,
+    "new_task": null,
+    "new_time_text": null,
+    "should_call_tool": true
+  },
+  "expected": {
+    "should_call_tool": true,
+    "expected_tool": "delete_reminder",
+    "expected_status": "ambiguous",
+    "state_change": "no_change",
+    "scenario": "delete_ambiguous_task_only",
+    "diff_assertions": [
+      "after_state == before_state",
+      "tool_result.status == 'ambiguous'"
+    ],
+    "before_active_count": 4,
+    "run_now": "2026-05-26T11:50:06.647642+08:00",
+    "timezone": "Asia/Singapore"
+  }
+}

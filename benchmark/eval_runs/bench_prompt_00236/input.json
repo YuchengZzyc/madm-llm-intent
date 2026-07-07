@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00236",
+  "prompt": "I realized my evening is packed and I want to tidy up before the family call, so please move the reminder for me to get a haircut to before dinner tonight.",
+  "tool": "update",
+  "scenario": "update_not_found_personal_care"
+}

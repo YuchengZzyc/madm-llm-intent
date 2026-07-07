@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00012",
+  "prompt": "Remind me next Monday at 10:15 AM to ask my nephew about the clinic appointment, before I start calling around.",
+  "tool": "create",
+  "scenario": "create_success_relative_daypart"
+}

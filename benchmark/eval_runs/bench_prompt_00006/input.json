@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00006",
+  "prompt": "Can you remind me today at 6:30 PM to pick up a parcel downstairs, since I’ll probably be making tea around then?",
+  "tool": "create",
+  "scenario": "create_success_exact_time"
+}

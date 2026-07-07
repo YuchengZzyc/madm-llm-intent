@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00326",
+  "prompt": "Later this evening I'll probably take a walk after dinner, if the rain lets up.",
+  "tool": "no_tool",
+  "scenario": "no_tool_time_words_no_intent"
+}

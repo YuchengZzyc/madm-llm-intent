@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00249",
+  "prompt": "Not doing tai chi after all—remove my reminder to go to tai chi class tomorrow at 8:00 AM.",
+  "tool": "delete",
+  "scenario": "delete_success_explicit"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00004",
+  "prompt": "Would you please set a reminder for me tonight at 8:15 PM so I remember to pick up my new glasses?",
+  "tool": "create",
+  "scenario": "create_success_exact_time"
+}

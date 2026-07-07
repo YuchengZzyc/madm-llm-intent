@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00329",
+  "prompt": "Could you please tell me whether taking a daily walk might help keep my blood pressure in a healthier range, since I’m trying to stay active as I get older?",
+  "tool": "no_tool",
+  "scenario": "no_tool_question_general"
+}

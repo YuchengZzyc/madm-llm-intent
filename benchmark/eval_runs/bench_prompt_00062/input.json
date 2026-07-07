@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00062",
+  "prompt": "Next Monday at 10:15 AM — make sure the balcony window gets closed.",
+  "tool": "create",
+  "scenario": "create_success_household_safety"
+}

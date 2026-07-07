@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00164",
+  "prompt": "Please check whether I have a reminder to get a haircut, with my blue mug here.",
+  "tool": "query",
+  "scenario": "query_polite_elder_style"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00024",
+  "prompt": "Uh, maybe remind me tomorrow afternoon at 4:00 PM — pick up new glasses.",
+  "tool": "create",
+  "scenario": "create_success_routine_anchor"
+}

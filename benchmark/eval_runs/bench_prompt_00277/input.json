@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00277",
+  "prompt": "Before dinner tonight I’ll handle it myself—delete the close the balcony window reminder.",
+  "tool": "delete",
+  "scenario": "delete_ambiguous_task_only"
+}

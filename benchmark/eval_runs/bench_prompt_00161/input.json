@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00161",
+  "prompt": "Dear, might I have a reminder to apply the knee patch tomorrow morning?",
+  "tool": "query",
+  "scenario": "query_polite_elder_style"
+}

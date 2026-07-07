@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00136",
+  "prompt": "Can you check when I'm supposed to soak beans before dinner, coffee in hand?",
+  "tool": "query",
+  "scenario": "query_by_task_success"
+}

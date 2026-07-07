@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00133",
+  "prompt": "After breakfast tomorrow I know there’s something about bringing in the laundry on my reminders; could you look up that reminder for me?",
+  "tool": "query",
+  "scenario": "query_by_task_success"
+}

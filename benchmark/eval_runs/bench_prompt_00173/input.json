@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00173",
+  "prompt": "While I'm packing my blue water bottle, can you check the reminder I have to play basketball after breakfast tomorrow?",
+  "tool": "query",
+  "scenario": "query_not_found_sports"
+}

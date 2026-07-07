@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00196",
+  "prompt": "I’m planning chili for tomorrow night and I need the beans ready ahead of time, so please find my reminder to soak beans before dinner that’s set for after breakfast tomorrow and move it to after breakfast tomorrow.",
+  "tool": "update",
+  "scenario": "update_success_time_shift"
+}

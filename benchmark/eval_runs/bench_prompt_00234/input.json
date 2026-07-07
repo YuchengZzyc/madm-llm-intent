@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00234",
+  "prompt": "Shift trim the potted plants to tomorrow afternoon at 4:00 PM.",
+  "tool": "update",
+  "scenario": "update_not_found_personal_care"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00309",
+  "prompt": "I'm feeling pretty isolated this evening after a long day, and the rain tapping on my window is making me wish I had someone to talk with for a bit.",
+  "tool": "no_tool",
+  "scenario": "no_tool_emotional_support"
+}

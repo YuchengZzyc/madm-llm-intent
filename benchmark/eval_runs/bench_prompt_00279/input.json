@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00279",
+  "prompt": "Cancel my reminder to play basketball the day after tomorrow at 9:30 AM because the game is off.",
+  "tool": "delete",
+  "scenario": "delete_not_found_sports"
+}

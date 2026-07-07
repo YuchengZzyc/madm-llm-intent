@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00039",
+  "prompt": "Remind me to return the library book in my tote bag before dinner tonight.",
+  "tool": "create",
+  "scenario": "create_success_errand_payment"
+}

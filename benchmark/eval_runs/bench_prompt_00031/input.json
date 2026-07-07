@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00031",
+  "prompt": "This Friday evening, remind me to play basketball—new socks.",
+  "tool": "create",
+  "scenario": "create_success_short_command"
+}

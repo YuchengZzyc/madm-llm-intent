@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00252",
+  "prompt": "Cancel my reminder to renew the bus card tomorrow morning.",
+  "tool": "delete",
+  "scenario": "delete_success_explicit"
+}

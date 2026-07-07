@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00085",
+  "prompt": "Tomorrow at 8:00 AM — BP reading reminder.",
+  "tool": "create",
+  "scenario": "create_success_cooking_food"
+}

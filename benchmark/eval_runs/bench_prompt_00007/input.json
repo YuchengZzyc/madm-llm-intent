@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00007",
+  "prompt": "Remind me tomorrow morning to meet the bank clerk, blue folder in hand.",
+  "tool": "create",
+  "scenario": "create_success_exact_time"
+}

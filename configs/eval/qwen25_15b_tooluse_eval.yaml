@@ -1,0 +1,15 @@
+model:
+  name_or_path: "E:/LLM/Qwen/Qwen2.5-1.5B-Instruct"
+  adapter_path: "outputs/qwen25_15b_dora/checkpoint-580"
+
+data:
+  test_file: "data/training_data_llm.cleaned.jsonl"
+
+eval:
+  max_new_tokens: 256
+  temperature: 0.0
+  limit: 100
+
+output:
+  report_file: "outputs/eval/qwen25_15b_lora_tooluse_report.json"
+

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00183",
+  "prompt": "Since I’m expecting a delivery and don’t want it sitting there too long, can you check whether I have a reminder to pick up a parcel downstairs tomorrow morning?",
+  "tool": "query",
+  "scenario": "query_not_found_errand"
+}

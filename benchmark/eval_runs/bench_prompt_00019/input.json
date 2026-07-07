@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00019",
+  "prompt": "Could you set a reminder for me today at 6:30 PM to take blood pressure medicine, and I’ll probably be in the kitchen then but that part doesn’t matter.",
+  "tool": "create",
+  "scenario": "create_success_relative_daypart"
+}

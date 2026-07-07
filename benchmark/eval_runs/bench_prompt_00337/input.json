@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00337",
+  "prompt": "Weather might finally cooperate soon; maybe a haircut sometime next week, just thinking out loud.",
+  "tool": "no_tool",
+  "scenario": "no_tool_future_plan_no_request"
+}

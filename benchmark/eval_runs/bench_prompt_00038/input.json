@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00038",
+  "prompt": "Remind me the day after tomorrow at 9:30 AM to pay the water bill so I avoid a late fee.",
+  "tool": "create",
+  "scenario": "create_success_errand_payment"
+}

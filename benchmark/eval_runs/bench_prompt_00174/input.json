@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00174",
+  "prompt": "When is my reminder to play basketball?",
+  "tool": "query",
+  "scenario": "query_not_found_sports"
+}

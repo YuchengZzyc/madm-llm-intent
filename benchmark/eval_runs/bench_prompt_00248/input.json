@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00248",
+  "prompt": "No need to call my daughter tomorrow morning after all—delete that reminder since she already reached out.",
+  "tool": "delete",
+  "scenario": "delete_success_explicit"
+}

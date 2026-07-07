@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00098",
+  "prompt": "Please remind me tomorrow morning to return the library book, with the blue bookmark still inside.",
+  "tool": "create",
+  "scenario": "create_success_delivery_shopping"
+}

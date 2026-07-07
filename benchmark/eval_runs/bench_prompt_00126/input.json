@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00126",
+  "prompt": "Add a reminder, details later, just need something started before I forget.",
+  "tool": "create",
+  "scenario": "create_missing_both_minimal"
+}

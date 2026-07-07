@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00010",
+  "prompt": "Put it on my reminders: tonight at 8:15 PM, video call my sister.",
+  "tool": "create",
+  "scenario": "create_success_exact_time"
+}

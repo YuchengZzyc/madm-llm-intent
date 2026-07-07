@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00265",
+  "prompt": "Hey, can you get rid of my reminder to measure my blood pressure after breakfast tomorrow, since I’m going to handle it without a nudge?",
+  "tool": "delete",
+  "scenario": "delete_ambiguous_generic"
+}

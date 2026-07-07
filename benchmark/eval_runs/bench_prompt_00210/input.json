@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00210",
+  "prompt": "I cannot go for the haircut in the morning; change that reminder to tomorrow afternoon.",
+  "tool": "update",
+  "scenario": "update_success_reschedule_with_context"
+}

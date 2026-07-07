@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00148",
+  "prompt": "Can you find my reminder to collect medicine from the pharmacy, since I need to plan my errands?",
+  "tool": "query",
+  "scenario": "query_by_day_success"
+}

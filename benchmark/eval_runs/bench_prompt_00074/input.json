@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00074",
+  "prompt": "Could you make sure I don’t forget to attend the neighborhood committee meeting the day after tomorrow at 9:30 AM?",
+  "tool": "create",
+  "scenario": "create_success_appointment"
+}

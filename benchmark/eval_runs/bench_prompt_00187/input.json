@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00187",
+  "prompt": "Can you check for my reminder to return the library book the day after tomorrow at 9:30 AM, with my blue tote by the door?",
+  "tool": "query",
+  "scenario": "query_not_found_errand"
+}

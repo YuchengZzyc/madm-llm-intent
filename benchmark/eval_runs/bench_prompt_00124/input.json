@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00124",
+  "prompt": "Could you please help me set up a reminder, dear?",
+  "tool": "create",
+  "scenario": "create_missing_both_minimal"
+}

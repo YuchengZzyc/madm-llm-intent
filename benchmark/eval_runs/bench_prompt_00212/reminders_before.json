@@ -1,0 +1,32 @@
+[
+  {
+    "reminder_id": "rem_0001",
+    "task": "buy vegetables on the way home",
+    "scheduled_time": "2026-05-28T09:30:00+08:00",
+    "time_text": "the day after tomorrow at 9:30 AM",
+    "target": "self",
+    "status": "active",
+    "created_at": "2026-05-24T10:50:06.647642+08:00",
+    "updated_at": "2026-05-25T11:50:06.647642+08:00"
+  },
+  {
+    "reminder_id": "rem_d001",
+    "task": "water the orchids",
+    "scheduled_time": "2026-05-27T09:00:00+08:00",
+    "time_text": "tomorrow morning",
+    "target": "self",
+    "status": "active",
+    "created_at": "2026-05-24T10:50:06.647642+08:00",
+    "updated_at": "2026-05-25T11:50:06.647642+08:00"
+  },
+  {
+    "reminder_id": "rem_d002",
+    "task": "charge the phone",
+    "scheduled_time": "2026-05-26T21:00:00+08:00",
+    "time_text": "tonight at 9:00 PM",
+    "target": "self",
+    "status": "active",
+    "created_at": "2026-05-24T10:50:06.647642+08:00",
+    "updated_at": "2026-05-25T11:50:06.647642+08:00"
+  }
+]

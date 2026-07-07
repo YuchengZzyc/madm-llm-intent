@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00310",
+  "prompt": "Could you keep me company for a little while, dear? It’s rather quiet here this evening.",
+  "tool": "no_tool",
+  "scenario": "no_tool_emotional_support"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00037",
+  "prompt": "Need a nudge after breakfast tomorrow to renew the bus card—wallet's on the counter.",
+  "tool": "create",
+  "scenario": "create_success_errand_payment"
+}

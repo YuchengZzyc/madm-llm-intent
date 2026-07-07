@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00092",
+  "prompt": "Could you remind me before dinner tonight to soak beans before dinner, and by the way I left the blue bowl on the counter?",
+  "tool": "create",
+  "scenario": "create_success_cooking_food"
+}

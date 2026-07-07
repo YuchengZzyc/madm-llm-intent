@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00052",
+  "prompt": "Can you remind me next Monday at 10:15 AM to go to tai chi class, since I keep forgetting the new schedule?",
+  "tool": "create",
+  "scenario": "create_success_sports_activity"
+}

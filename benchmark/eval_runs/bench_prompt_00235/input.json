@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00235",
+  "prompt": "Change my haircut reminder to tonight at 8:15 PM, need it handled before the trip.",
+  "tool": "update",
+  "scenario": "update_not_found_personal_care"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00313",
+  "prompt": "Could you just keep me company for a minute? Tonight feels heavy.",
+  "tool": "no_tool",
+  "scenario": "no_tool_emotional_support"
+}

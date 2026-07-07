@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00086",
+  "prompt": "After breakfast tomorrow, remind me to send my granddaughter a birthday message, since I don’t want to forget her big day.",
+  "tool": "create",
+  "scenario": "create_success_cooking_food"
+}

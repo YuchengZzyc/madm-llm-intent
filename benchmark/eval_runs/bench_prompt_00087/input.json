@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00087",
+  "prompt": "Remind me before dinner tonight to take an evening walk.",
+  "tool": "create",
+  "scenario": "create_success_cooking_food"
+}

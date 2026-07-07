@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00119",
+  "prompt": "Set a reminder for today at 6:30 PM — I’m on the bus.",
+  "tool": "create",
+  "scenario": "create_missing_task_time_clear"
+}

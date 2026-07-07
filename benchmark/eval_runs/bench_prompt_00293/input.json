@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00293",
+  "prompt": "Delete a reminder, please—my coffee just went cold.",
+  "tool": "delete",
+  "scenario": "delete_missing_target"
+}

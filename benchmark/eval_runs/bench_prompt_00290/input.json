@@ -1,0 +1,6 @@
+{
+  "id": "bench_prompt_00290",
+  "prompt": "Delete my meet the bank clerk reminder.",
+  "tool": "delete",
+  "scenario": "delete_not_found_appointment"
+}
